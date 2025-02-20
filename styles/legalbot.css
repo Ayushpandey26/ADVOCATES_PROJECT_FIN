@@ -1,0 +1,41 @@
+.legal-bot-container {
+    transition: all 0.3s ease-in-out;
+}
+
+.message-bubble {
+    transition: all 0.2s ease-in-out;
+}
+
+.message-bubble:hover {
+    transform: translateY(-1px);
+}
+
+.typing-indicator {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.bot-avatar {
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+}
+
+.quick-options-container {
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.quick-option-button {
+    background-color: #f7fafc;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.quick-option-button:hover {
+    background-color: #edf2f7;
+    transform: translateY(-1px);
+}

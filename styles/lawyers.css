@@ -1,0 +1,15 @@
+.lawyer-filter {
+    background-color: rgba(26, 54, 93, 0.05);
+}
+
+.lawyer-profile-header {
+    background: linear-gradient(90deg, #1a365d 0%, #2a4365 100%);
+}
+
+.rating-stars {
+    color: #ecc94b;
+}
+
+.contact-info {
+    border-left: 4px solid #1a365d;
+}
